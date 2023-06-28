@@ -3,6 +3,8 @@ DSP RCT Project from E4E of ECE Department of UCSD, Jacobs School of Engineering
 
 ## Helpful Links and Sources for Relevant Implementations
 
+The Repository which this one ties into: https://github.com/UCSD-E4E/rct-dsp3 (official RCT DSP from E4E)
+
 References of CodeBases: (from RCT, UCSD, ECE):
 
 RCT Postprocessing: https://github.com/UCSD-E4E/radio_collar_tracker_postprocess
@@ -12,6 +14,20 @@ RCT DSP official Drone Version 1: https://github.com/UCSD-E4E/radio_collar_track
 RCT Signal Characterization Theory: https://github.com/UCSD-E4E/rct_signal_characterization
 
 RCT DSP official Drone Version 2: https://github.com/UCSD-E4E/radio_collar_tracker_dsp2
+
+
+References for BLUE as a concept and implementations:
+
+(1): BLUE-py: https://github.com/jolange/BLUE-py
+
+(2): blue: https://github.com/tomneep/blue
+
+(3): PyBLUE: https://github.com/rdisipio/PyBLUE
+
+(4): BLUEST: https://github.com/croci/bluest
+
+
+
 
 For NAS access: to gain direct RAW directory access: contact Hannah Grehm (UCSD) or Nathan Hui (UCSD) at their _email.ucsd.edu_ institutional emails. 
 
@@ -59,9 +75,11 @@ For more information on CFO, get started at: https://en.wikipedia.org/wiki/Carri
 
 ~Signal conversion to FT domain from bitstream, with subsequent proof of concept
 
-~FFT to IFFT to FFT of signals for visualization in frequency and/or time domains. Visualization plots in other complex fields available.
+~FFT to IFFT to FFT of signals for visualization in frequency and/or time domains. Visualization plots in other complex fields available (STFT, etc.)
 
 ~Data is one which accounts for manipulation of real data to deadlock and deadtime, along with amplitude obfuscation regimes. 
+
+~Handling server zips of large real data readings, along with management of local hierarchies. 
 
 ## Future Directions:
 
@@ -73,3 +91,6 @@ For more information on CFO, get started at: https://en.wikipedia.org/wiki/Carri
 
 ~Optimize the multi CFO for hyperparametric coherence. 
 
+~Rigorous tesbenching on multiple domains, efficacy measures, transforms, and limitations of extrinsic properties of SDRs and environmental situations, with analytical plots and measurable solutions. 
+
+~Other signal decomposition imaging techniques, such as JFT, CFT, etc. 
